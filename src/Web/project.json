@@ -21,8 +21,8 @@
     "Microsoft.Extensions.Logging.Debug": "1.0.0",
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
     "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
-    "DataLayer": "1.0.0-*",
-    "Common": "1.0.0-*"
+    "Common": "1.0.0-*",
+    "DataLayer.SqlServer": "1.0.0-*"
   },
 
   "tools": {

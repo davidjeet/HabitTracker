@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Common.Model;
+using Common.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using DataLayer.SqlServer;
 
 namespace Web
 {
@@ -29,6 +32,8 @@ namespace Web
         {
             // Add framework services.
             services.AddMvc();
+            services.AddSingleton<IHabitRepository , SqlHabitRepository>(); // added by davidjeet
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

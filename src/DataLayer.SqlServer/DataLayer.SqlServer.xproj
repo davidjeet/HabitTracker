@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>163fbd57-b026-46b6-81cc-21ea13d97cf2</ProjectGuid>
-    <RootNamespace>DataLayer</RootNamespace>
+    <ProjectGuid>d6c9f5a8-722e-4dc9-a0aa-0473ee70d4a0</ProjectGuid>
+    <RootNamespace>DataLayer.SqlServer</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
